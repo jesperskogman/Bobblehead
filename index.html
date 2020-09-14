@@ -17,14 +17,24 @@
         <div class="container">
             <div class="jumbotron">
                 <a href="index.html"><img src="docs/Product (4).jpeg" alt="company logo"></a>
-                <a href="index.html"><h1>Spez men</h1></a>
+                <a href="index.html">
+                    <h1>Spez men</h1>
+                </a>
             </div>
         </div>
     </header>
     <img class="preveue" src="docs/bobbel.PNG" alt="picture of the bobble head">
     <h3 class="actiontext">Get your new bobblehead and charge in to battle!</h3>
-    <a href="form.html">
-        <h2 class="button">For the Emperor!</h3>
+    <form action="/action_page.php">
+        <div class="form-group">
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="button" class="btn btn-default">Default</button>
+    </form>
     </a>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

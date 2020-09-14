@@ -1,0 +1,50 @@
+html{
+    font-family: 'IM Fell English', serif;
+
+}
+
+header {
+    
+
+
+}
+.benina{
+    background-color: black;
+    margin: auto;
+    color: white;
+}
+
+.pull-left{
+ height: 10%;
+ width: 10%;
+
+}
+.benina> div{
+    padding-left: 20%;
+    color: white;
+    filter: none;
+    
+}
+body{
+    background-color: #787878;
+    font-family: 'IM Fell English', serif;
+    text-align: center;
+
+}
+.preveue{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-family: 'IM Fell English', serif;
+}
+.actiontext{
+    
+}
+.button{
+    filter: none;
+    color: black;
+    background-color: gold;
+}

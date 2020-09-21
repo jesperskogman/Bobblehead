@@ -1,12 +1,7 @@
-var content = document.getElementById("success");
-var button = document.getElementById("alert-button");
+$("#alert-open").click(function () {
+    $("#success").addClass("show");
+});
 
-button.onclick = function(){
-    console.log("babbaboe");
-
-    if(content.className == "alert alert-success alert-dismissible fade hidden"){
-        content.className = "alert alert-success alert-dismissible fade show";
-    }
-    
-
-};
+$("#alert-close").click(function () {
+    $("#success").removeClass("show");
+});
